@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) throws LoginException {
         jda = JDABuilder
-                .createDefault("NTE1NTQ5MDI0Mjk2NjMyMzMy.W_gccQ.c4yfia_GZSQrHiYGjss0oZwB-GE")
+                .createDefault(TOKEN)
                 .addEventListeners(new MemberEvent())
                 .setActivity(Activity.playing("CubixMC"))
                 .build();
