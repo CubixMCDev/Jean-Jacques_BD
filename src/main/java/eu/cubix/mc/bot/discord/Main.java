@@ -14,11 +14,11 @@ public class Main {
 
     public static void main(String[] args) throws LoginException {
         jda = JDABuilder
-                .createDefault(TOKEN)
+                .createDefault("TOKEN")
                 .addEventListeners(new MemberEvent())
                 .setActivity(Activity.playing("CubixMC"))
                 .build();
 
-        System.out.println("I'm connected!");
+        System.out.println("Connected!");
     }
 }
